@@ -1,0 +1,132 @@
+html, body{
+
+	background-color: #3F8FD7;
+	color: white;
+	font-family: Arial, serif;
+
+}
+
+.container{
+
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px 20px 0 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+::-webkit-input-placeholder {
+
+	color: #1B5A95;
+	padding-left: 10px;
+	font-style: italic;
+}
+
+input{
+
+	display: block;
+	width: 100%;
+	height: 30px;
+	font-size: 15px;
+	background-color: #3F8FD7;
+	color: #1B5A95;
+	border: 2px solid white;
+	margin-top: 5px;
+}
+
+label{
+	// border: 1px solid red;
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+
+}
+
+span{
+
+	display: block;
+	margin-top: 20px;
+	// border: 1px solid red;
+}
+
+select{
+
+	display: block;
+	width: 100%;
+	height: 30px;
+	font-size: 15px;
+	background-color: #3F8FD7;
+	color: white;
+	border: 2px solid #7A94A7;
+	margin-top: 5px;
+}
+
+textarea{
+
+	width: 100%;
+	height: 150px;
+	background-color: #3F8FD7;
+	border: 2px solid white;
+	margin-top: 5px;
+}
+
+.phone{
+
+	margin-top: 50px;
+}
+
+.radio, .checkbox{
+
+		 // border: 1px solid red;
+		margin-top: 5px;
+		padding-bottom: 20px;
+
+
+}
+
+.talent{
+	padding-top:40px;
+	display: block;
+}
+
+.checkbox input{
+
+	width: 25px;
+	display: inline-block;
+	height: 15px;
+	
+
+}
+
+
+.radio input{
+
+	display: inline-block;
+	border: 1px solid red;
+	width: 25px;
+	height: 15px;
+
+
+}
+button{
+
+	color: white;
+	background-color: #16538C;
+	max-width: 300px;
+	height: 45px;
+	border: none;
+	margin: 30px auto 0 auto;
+	font-size: 15px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	display: block;
+}
+
+.btn-holder{
+
+	// width: 100%;
+}
+
+
+
+
