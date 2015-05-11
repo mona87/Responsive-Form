@@ -84,3 +84,19 @@ button {
   padding: 0 10px;
   box-sizing: border-box;
   display: block; }
+
+@media (min-width: 768px) {
+  .left-col {
+    display: block;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 50px; }
+  .mid-col {
+    display: block;
+    float: left;
+    width: 50%;
+    padding-right: 50px;
+    box-sizing: border-box; }
+  .phone {
+    margin-top: 20px; } }
